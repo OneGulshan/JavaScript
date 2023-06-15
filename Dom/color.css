@@ -1,0 +1,34 @@
+body{
+    background: slategray;
+}
+#header{
+    background: crimson;
+}
+.abc{
+    color: #fff;
+}
+.xyz{
+    color: yellow;
+}
+#menu{
+    background: mediumpurple;
+}
+#menu a{
+    color: #fff;
+}
+#menu a:hover{
+    background: crimson;
+}
+#content::selection{
+    background: crimson;
+    color: #fff;
+}
+#sidebar{
+    background: lavender;
+}
+#sidebar a:hover{
+    color: crimson;
+}
+#footer{
+    background: crimson;
+}
