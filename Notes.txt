@@ -8,6 +8,13 @@ array index values is known as elements of array.
 What is the meaning by Ascii(American Standard Code for Information Interchange) code?
 The American Standard Code for Information Interchange (ASCII) is a standard table of seven-bit designations for digital representation of uppercase and lowercase Roman letters, numbers and special control characters in teletype, computer and word processor systems.
 
+What is Dom?
+Dom is an API used for Html, XML Documents Object Mainipulation.
+
+What is the inspect tool?
+The Inspect tool is a useful tool for web developers, as it lets you check and edit the HTML and CSS of the page displayed in the browser. Work efficiency will be considerably improved by mastering it, making it an indispensable tool for web developers.
+
+The HTTP 304 Not Modified client redirection response code indicates that there is no need to retransmit the requested resources. It is an implicit redirection to a cached resource.
 ----------------------------------------------------------------------------------------------------------
 
 1. Introduction
@@ -508,7 +515,7 @@ JavaScript Dom Get Methods(5):- innerText, innerHTML, getAttribute, getAttribute
 JavaScript Dom Set Methods(5):- innerText, innerHTML, setAttribute, Attribute, removeAttribute.
 ----------------------------------------------------------------------------------------------------------
 
-64. DOM querySelector vs querySelectorAll Methods in JS
+64. DOM querySelector vs querySelectorAll Me    thods in JS
 -------------------------------------------------------
 Note:- querySelector for Selecting single selector, querySelectorAll for Selecting All selectors with its index value.
 ----------------------------------------------------------------------------------------------------------
@@ -516,4 +523,42 @@ Note:- querySelector for Selecting single selector, querySelectorAll for Selecti
 65. DOM CSS Styling Methods in JS
 ----------------------------------
 JavaScript Css Styling Methods(3):- Style, className, classList.
+Note:- className & classList diff is className return string and classList return Array.
+----------------------------------------------------------------------------------------------------------
+
+66. Html Event Attributes
+--------------------------
+addEventListener(event, function);//Syntax
+addEventListener(event, function, useCapture);//useCapture default value is false
+Note:- addEventListener method used for appling multiple events and same events on same document object;
+----------------------------------------------------------------------------------------------------------
+
+67. classList() Methods in JS
+------------------------------
+Note:- classList add fun used for adding classes, remove for remove, length for getting length, toggle for toggling
+item for knowing item by index number, contains for checking class exist or not.
+//contains is of bool type <- in if condition we can check contains class then perform programming.
+----------------------------------------------------------------------------------------------------------
+
+68. Traversal Methods in JS
+----------------------------
+JavaScript Html Targeting Methods(12):- parentNode, parentElement, Children, childNodes, firstChild, firstElementChild,
+lastChild, lstElementChild, nextElementChild, nextSibling, previousElementSibling, previousSibling.
+Note:- parentElement & parentNode only a one diff is if element no parent then parentNode return (document) but parentElement return null.
+----------------------------------------------------------------------------------------------------------
+
+69. Children and childNodes in Traversal
+-----------------------------------------
+Note:- In Children and childNodes we targetting Children using parent.
+- Children & childNodes only a diff is Children only return html tags but childNodes return also text Nodes(Enter/Space, Comment in Html).
+----------------------------------------------------------------------------------------------------------
+
+70. firstChild and lastChild in Traversal
+------------------------------------------
+Note:- firstChild and lastChild means firstChild first element and lastChild means last element in Traversal;
+- text(Enter/Space, Comment) node not posible styling.
+
+----------------------------------------------------------------------------------------------------------
+
+
 

@@ -1,17 +1,17 @@
 <!DOCTYPE html>
-<html>
+<html id="main">
 	<head>
 		<title>Basic Layout</title>
 		<link rel="stylesheet" href="main.css">
 	</head>
 	<body>
 		<div id="wrapper">
-			<div id="header" class="abc" style="border:1px solid red;" onclick="xyz()">
+			<div id="header" class="abc" style="border:1px solid red; color: azure;" onclick="xyz()">
 			   <h1>Yahoo Baba</h1>
 			</div>
-			<div id="menu">
+			<div id="menu" class="navbar" style="border:1px dotted hotpink; color: gold;">
 				<ul>
-					<li><a href="">Home</a></li>
+					<li><a href="#navhome">Home</a></li>
 					<li><a href="">About Us</a></li>
 					<li><a href="">Gallery</a></li>
 					<li><a href="">Contact Us</a></li>
@@ -32,7 +32,7 @@
 			</div>
 			<div id="sidebar">
 				<ul>
-					<li><a href="">Home</a></li>
+					<li><a href="#sidehome">Home</a></li>
 					<li><a href="">About Us</a></li>
 					<li><a href="">Gallery</a></li>
 					<li><a href="">Contact Us</a></li>
@@ -40,6 +40,24 @@
 			</div>
 			<div id="footer">
 				yahoobaba@copyright 2018.
+			</div>
+		</div>
+		<div id="outer">
+			<h2>Outer</h2>
+			<div id="inner">
+				<h2>Inner</h2>
+			</div>
+		</div>
+		<br><br>
+		<div id="o">
+			<h2>Outer</h2>
+			<div id="i">
+				<h2>Inner</h2>
+				<div>A</div>
+				<div>B</div>
+				<div id="child-c">C</div>
+				<div>D</div>
+				<div>E</div>
 			</div>
 		</div>
         <script src="dom-main.js"></script>
