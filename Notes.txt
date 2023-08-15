@@ -1,0 +1,592 @@
+https://www.youtube.com/playlist?list=PL0b6OzIxLPbx-BZTaWu_AF7hsKo_Fvsnf <- Yahoo Baba
+Note:- Js is case sensitive language.
+- var for reusing variable
+
+Is element and value same?
+array index values is known as elements of array.
+
+What is the meaning by Ascii(American Standard Code for Information Interchange) code?
+The American Standard Code for Information Interchange (ASCII) is a standard table of seven-bit designations for digital representation of uppercase and lowercase Roman letters, numbers and special control characters in teletype, computer and word processor systems.
+
+What is Dom?
+Dom is an API used for Html, XML Documents Object Mainipulation.
+
+What is the inspect tool?
+The Inspect tool is a useful tool for web developers, as it lets you check and edit the HTML and CSS of the page displayed in the browser. Work efficiency will be considerably improved by mastering it, making it an indispensable tool for web developers.
+
+The HTTP 304 Not Modified client redirection response code indicates that there is no need to retransmit the requested resources. It is an implicit redirection to a cached resource.
+----------------------------------------------------------------------------------------------------------
+
+1. Introduction
+----------------
+
+Client-Side Script vs Server-Side Script?
+Client-Side Script load in Browser or Server-Side Script on Server simple.
+
+JS Events :- Click(onclick), Double Click(ondblclick), Right Click(oncontextmenu), Mouse Hover(onmouseenter), Mouse Out(onmouseout),
+Mouse Down(onmousedown), Mouse Up(onmouseup), Drag Drop, Key Press(onkeypress), Key Up(onkeyup), Load(onload), Unload(onunload),
+Resize(onresize), Scroll(onscroll)
+
+Benefits of Learning JS :- Web Development, Desktop App Development, Mobile App Development
+Web Development :- jQuery, Angular Js, VueJs, NodeJs
+Desktop App evelopment :- Electron Js
+Mobile App Development :- Angular Js, React Js, VueJS, React Native, NodeJs
+
+Uses of JavaScript in Web Development
+DropDown Menu, Animated Sliders, Maps, Chart-Graphs, Pop-us window, Audio Players,
+Video Playesrs, Zoom Effects, Animated Gallery, Form Validations, Accordians, Calenders
+
+Software Requirements for JS
+Html Editor:- Notepad,Notepad++,VS Code,Sublime,Artom
+Web Browser:- Google Chrome, Mozilla Firebox, Internet Explorer, Safari
+
+Note:- In string single('') & double both codes supported("") in JS
+- right menu par click karwane ke liye(oncontextmenu) - onmousedown means mouse click - onmouseup means after mouse click then mouse up then this event fire
+- onkeyup means after keypress relese key - onunload means when close window
+----------------------------------------------------------------------------------------------------------
+
+2. Implementation
+------------------
+
+2 Ways to Implement JS in DOM
+- Inpage JS & External JS
+Inpage JS Use in same dom(page)
+External using js file
+
+Note:- Body se just uppar <script src="myScript.js"></script>
+----------------------------------------------------------------------------------------------------------
+
+3. Html Tags in JS (Js in DOM)
+-------------------------------
+
+document.write("<i>Hii</i>")
+----------------------------------------------------------------------------------------------------------
+
+4. Comments in JS
+------------------
+
+//SingleLine Comment, /* Multiline Comment */
+----------------------------------------------------------------------------------------------------------
+
+5,6. Variables in JS
+-------------------
+
+Note:- Variables for reusing of Code ex. var, let and const. In var we can override our values, In var we
+can use same var multiple times does'nt required to redeclare
+var x = "Gulshan Kumar"; note var is datatype, x is the name of the variable or variable and "Gulshan Kumar" is the value of the variable
+let, const and var only diff is:- let can't redeclarable but can be reassignable and const can't redeclarable and reassignable but var can be both
+----------------------------------------------------------------------------------------------------------
+
+7. Data Types in JS
+--------------------
+
+Note:- Data Types means values of variables.
+example:- String, Number, Boolean, Array, Object, Null, Undefined
+typeof function using for telling about data type
+In Js Array and Object both data types is same:- object type
+----------------------------------------------------------------------------------------------------------
+
+8. Arithmetic Operators in JS
+------------------------------
+/, *, +, -, **, %, ++, --
+----------------------------------------------------------------------------------------------------------
+
+9. Assignment Operators in JS
+------------------------------
+=, +=, -=, *=, /=, %=, **- => x += y -> x = x + y
+----------------------------------------------------------------------------------------------------------
+
+10. Google Chrome Console in JS
+--------------------------------
+cnt+shift+i/right click->inspact/menu->more tools->Developer tools => For opening console in browser
+console used for testing purposes like checking var value etc
+console.log for printing value on console
+console.table for showing data in table formate on console
+console.error for showing error messages on console
+console.warn for showing warning messages on console
+console.clear for clearing console window
+console.time for testing code excution time on console
+Note:- we can also directly use console editor window for checking js commands
+document using on console for showing original document on console
+document.getElementById("main").innerText for text only
+document.getElementById("main").innerHTML for showing inner Text with inner html also
+----------------------------------------------------------------------------------------------------------
+
+11. Diiferent Types of Comparison Operators in JS
+--------------------------------------------------
+==(equal to),===(equal value or equal typw),!=(not equal),!==(not equal value or not equal type),>(greater than),
+<(less than),>=(greater than or equal to),<=(less than or equal to)
+Note:- Every Comparison Operator's value, only have true or false only
+----------------------------------------------------------------------------------------------------------
+
+12. If Statement in JS
+-----------------------
+if(Condition True){ //If condition true then only Statement print by comparision //Syntax
+Statement
+}
+
+Note:- if, if else and if else if statements also used for making Softwares
+----------------------------------------------------------------------------------------------------------
+
+13. Logical Operators in JS
+----------------------------
+Note:- If we want to cheack more than one condition then we use Logical Operators like:- &&(Logical AND), ||(Logical OR) and !(Logical NOT)
+&& means both conditions must be true, || means one condition must be true, ! means return false when condition true so, when condition false then Statement can be executed(Reverse Order)
+----------------------------------------------------------------------------------------------------------
+
+14. If Else Statement in JS
+----------------------------
+if(Condition True){ //If condition true then Statement run if False then run else part
+Statement
+}
+else{
+Statement
+}
+----------------------------------------------------------------------------------------------------------
+
+15. If Else If Statement in JS
+-------------------------------
+if(Condition1 True){ //If condition true then Statement run if elseif condition true then elseif Statement run otherwise else statement run, means for working with more than one condition, then use if else if condition
+Statement
+}
+else if(Condition2 True){
+Statement
+}
+else{
+Statement
+}
+----------------------------------------------------------------------------------------------------------
+
+16. Conditional Ternary Operator in JS
+---------------------------------------
+(Condition)? True Statement : Flase Statement
+
+Note:- Ternary Operator Mostly used when we have single Condition only
+- Here we can use multi conditions and Logical Operators also in Ternary Statement
+----------------------------------------------------------------------------------------------------------
+
+17. Switch Case Tutorial in JS
+-------------------------------
+Switch(expression){
+    case condition 1: statement(s)
+    break;
+
+    case condition 2: statement(s)
+    break;
+
+    case condition 3: statement(s)
+    break;
+
+    default: statement(s)
+}
+----------------------------------------------------------------------------------------------------------
+
+18. Alert Box in JS
+--------------------
+Note:- alert box is used for showing popup message on Browser
+----------------------------------------------------------------------------------------------------------
+
+19. Confirm Box in JS
+----------------------
+Note:- Confirm box also same as alert box but Confirm box is used for asking Question from user, If user select yes then perform next phase other wise declined
+- Confirm ko basically if condition ke saath hi use kia jata hai
+----------------------------------------------------------------------------------------------------------
+
+20. Prompt Box in JS
+---------------------
+Note:- Prompt Box is used for getting any kind of value input from user for using like Console.ReadLine()
+----------------------------------------------------------------------------------------------------------
+
+21. Functions in JS
+--------------------
+function functionName(){ <- Function Definition/Declaration(functionName()) //() <- Parenthesis Indicates to Function
+    Statement
+}
+functionName(); <- Calling a Function
+
+Note:- Where we need repetition of code more than once their we can use our Function, For Reducing lengthy code
+----------------------------------------------------------------------------------------------------------
+
+22. Functions with Parameters in JS
+------------------------------------
+function functionName(Parameter1, Parameter2){
+    Statement
+}
+functionName(argument1, argument2);//argument can be value/var name
+
+Note:- In Functions with Parameters, function ka kaam to same ho par usme kuch change hota rahe using by different arguments
+----------------------------------------------------------------------------------------------------------
+
+23. Functions with Return Value in JS
+--------------------------------------
+function functionName(Parameter1, Parameter2){
+    Statement
+    return value
+}
+var a = functionName(argument1, argument2);
+
+Note:- If we want reusing the value in function in this case we using return type, jhan bhi return type function call hoga vahin value bhi return ho kar aa jaegi
+----------------------------------------------------------------------------------------------------------
+
+24. Global & Local Variable in JS
+----------------------------------
+Note:- Local variable function ke bahar kaam nahi karta but Global variable function ke ander or bahar dono jagah kaam karta hai
+----------------------------------------------------------------------------------------------------------
+
+25. Form Events in JS
+----------------------
+Form Events:- onclick, ondblclick, oncontextmenu, onmouseenter, onmouseout, onmousedown, onmouseup, onkeypress, onresize, onscroll.
+
+Note:-  onload event load the browser page(jaise hi page load hoga onload event ke ander jo bhi function hoga vo call ho jaega using for showing data on page load)
+- onunload event works when we close browser window or reload window, then onunload event ke ander jo bhi function hoga vo call ho jaega
+----------------------------------------------------------------------------------------------------------
+
+26. While Loop in JS
+---------------------
+var = 1;
+while(a <= 10){
+    document.write("Gulshan Kumar");
+    a = a + 1;
+}
+
+Note:- Loop is divided into three parts - Initialization, Condition(True/False), Statement and Increment/Decrement
+- Types of Loops in JS - while loop, do while loop, for loop, for/in loop(Object), forEach(Array)
+----------------------------------------------------------------------------------------------------------
+
+27. Do While Loop in JS
+------------------------
+var = 1;
+do{
+    document.write("Gulshan Kumar");
+    a++;
+}
+while(a <= 10);
+
+Note:- while and do while loop only a single difference is do must be run atleast once without cheacking condition
+----------------------------------------------------------------------------------------------------------
+
+28. For Loop in JS
+-------------------
+for(Initialization, Condition, Increment/Decrement){
+    Statement
+}
+
+Note:- Mostly developers used For loop between For loop, while loop and do while loop beacause of both stages witten in single line.
+----------------------------------------------------------------------------------------------------------
+
+29. Break & Continue Statement in JS
+-------------------------------------
+
+Note:- Continue used for skiping statement using by condition and Break used for moving out of the loop, boths works with only loops.
+----------------------------------------------------------------------------------------------------------
+
+30. Find Even & Odd Numbers with Loops in JS
+---------------------------------------------
+Note:- Modular(%) used for finding Even & Odd Numbers dividing by 2 Number if result is equal to 0 or not
+----------------------------------------------------------------------------------------------------------
+
+31. Nested Loop in JS
+----------------------
+for(Initialization, Condition, Increment/Decrement){//Represent Rows
+    for(Initialization, Condition, Increment/Decrement){/Represent Columns
+        Statement
+    }
+}
+
+Note:- In a loop defined another loop that's said Nested Loop. Most Imp Topic Practice purpose, If not understood then programming is ratafication.
+----------------------------------------------------------------------------------------------------------
+
+32. Nested Loop - II in JS
+---------------------------
+Note:- Same only revising.
+----------------------------------------------------------------------------------------------------------
+
+33. Arrays in JS
+-----------------
+var array = [10, 20, 30];
+
+Note:- In Array values stored on Index numbers, Index started Initial value is 0, and values accessed also by index numbers.
+- If on Index Number value not found showed undefine value.
+- array using with for loop.
+- In array we can use also different datatype values.
+----------------------------------------------------------------------------------------------------------
+
+34. Create Arrays Method - II in JS
+------------------------------------
+Note:- Array size defined as a default size, but can be dynamically change according by index size.
+----------------------------------------------------------------------------------------------------------
+
+35. Multidimensional Arrays in JS
+----------------------------------
+Note:- For related data handling used Multidimensional Array. Multidimensional means in single array has multiple arrays on different indexes.
+- using by array.length property in js we can auto detect length of array now we no need to count array length manually.
+----------------------------------------------------------------------------------------------------------
+
+36. Modify & Delete Array Elements in JS
+-----------------------------------------
+Note:- array[0] = "Ankit"; //For Modify, delete array[1]; //For Delete
+----------------------------------------------------------------------------------------------------------
+
+37. Array Sort & Reverse in JS
+-------------------------------
+JavaScript Array Methods(24):- sort(), reverse(), pop(), push(), shift(), unshift(), concat(), join(),
+slice(), splice(), isArray(), indexOf(), lastIndexOf(), entries(), every(), filter(),
+find(), findIndex(), includes(), some(), forEach(), toString(), valueOf(), fill().
+
+Note:- In this video we known about sort() and reverse() methods.
+- sort used for sorting elements and reverse used for reversing(उलटा चला) elements of array.
+----------------------------------------------------------------------------------------------------------
+
+38. Array Pop & Push in JS
+---------------------------
+Note:- Pop used for deleting last value from arrray, Push used for adding new value at last in array.
+----------------------------------------------------------------------------------------------------------
+
+39. Array Shift & Unshift in JS
+--------------------------------
+Note:- Shift used for deleting first value from array, Unshift used for adding new value at first in array.
+----------------------------------------------------------------------------------------------------------
+
+40. Array Concat & Join in JS
+------------------------------
+Note:- concat used for merging(विलय) more than one arrays. join used for converting array in a single string.
+----------------------------------------------------------------------------------------------------------
+
+41. Array Slice & Splice in JS
+-------------------------------
+Note:- slice used for retriving more than one values from array using by starting index and end index and making a new one without changing in existing one.
+splice(index, howmany, "new value")//index(where want to insert value(starting point)), howmany(for elements aage sarkane ke liye by 0 Or delete karne ke liye thats you want 2,3 etc), new value(for inserting new elements).
+- splice used for putting elements middel of the array.
+----------------------------------------------------------------------------------------------------------
+
+42. isArray in JS
+------------------
+Note:- Array.isArray used for cheacking our variable is an array or not.
+----------------------------------------------------------------------------------------------------------
+
+43. Array indexOf & lastIndexOf in JS
+--------------------------------------
+indexOf("Search item", Start)
+Note:- indexOf used for returning index of array's item. Start for where we want to Search.
+- if value not found indexOf return -1 value;
+- lastIndexOf Searching from last of the array.
+- indexOf & lastIndexOf not worked on Internet Explorer 8 and its old versions.
+----------------------------------------------------------------------------------------------------------
+
+44. Array Includes Method in JS
+--------------------------------
+Note:- Includes method can be search alpha numeric, alphabetic, numeric any kind of value in array and return true if
+exist like if condition. search with case sensitive. it can be used in our if condition and perform programming on it.
+----------------------------------------------------------------------------------------------------------
+
+45. Array Some & Every Methods in JS
+-------------------------------------
+Note:- The some() method checks if any of the elements in an array pass a test (provided as a function). result in true.
+- every method is used for cheacking every value in an array if every value is pass a test then only return true.
+----------------------------------------------------------------------------------------------------------
+
+46. Array find & findIndex in JS
+---------------------------------
+Note:- find method returns the value of the first element in an array that pass a test.
+- findIndex method returns the index of the first element in an array that pass a test.
+----------------------------------------------------------------------------------------------------------
+
+47. Array Filter in JS
+-----------------------
+Note:- filter method creates an array filled with all array elements that pass a test.
+----------------------------------------------------------------------------------------------------------
+
+48. Array toString & valueOf & fill Methods in JS
+--------------------------------------------------
+Note:- The toString() method converts an array into a String and returns the result.
+- valueOf() is default function used for printing arrays value, no need of this method.
+-  The fill() method fills all the elements in an array with a static value, its also no use only teaching.
+----------------------------------------------------------------------------------------------------------
+
+49. forEach Loop in JS
+-----------------------
+a.forEach(function(value, index){
+    Statement
+});
+Note:- forEach() method runs for each value of the array.
+----------------------------------------------------------------------------------------------------------
+
+50. Objects in JS
+------------------
+Note:- Object is same as array, object is an advance version of array, curly braces is the sign of object.
+- we can put arrays and functions also in our object and object also. properties is the combination of the name(key) and value pair.
+- we can see our object directly on console window only. we can access object's values using by its properties.
+- this keyword is used for calling object's members. object functions is called methods.
+----------------------------------------------------------------------------------------------------------
+
+51. Objects - II in Js
+--------------------------------
+Note:- In this video we can known 2nd method of creating an object. firstly define object after then use.
+----------------------------------------------------------------------------------------------------------
+
+52. Array of Objects in JS
+---------------------------
+Note:- Here purpose is different of Objects in array. last used arrays in Objects here also different.
+----------------------------------------------------------------------------------------------------------
+
+53. Const Variable with Array & Objects in JS
+----------------------------------------------
+Note:- means constant ki puri value change nahi kar sakte lekin uske ander ja kar value change kar sakte hain in array & object both. 
+----------------------------------------------------------------------------------------------------------
+
+54. For in Loop in JS
+----------------------
+Note:- For in loop is maked only for object printing.
+----------------------------------------------------------------------------------------------------------
+
+55. Map Method in JS
+---------------------
+a.map(function(){
+    Statement;
+});
+Note:- map function is used for performing calculation/making changes on array and then making a new array.
+----------------------------------------------------------------------------------------------------------
+
+56. String Methods in JS
+-------------------------
+JavaScript String Methods(22):- length(property), toLowerCase(), toUpperCase(), includes(), startsWith(), endesWith(), search(),
+match(), indexOf(), lastIndexOf(), replace(), trim(), charAt(), charCodeAt(), fromCharCode(), concat(), split(), repeat(),
+slice(), substr(), substring(), toString(), valueOf().
+----------------------------------------------------------------------------------------------------------
+
+57. String Methods - II in JS
+------------------------------
+Note:- Pending String Methods covered in this video
+----------------------------------------------------------------------------------------------------------
+
+58. Number Methods in JS
+-------------------------
+JavaScript Number Methods(7):- number(), parseInt(), parseFloat(), isFinite(), isInteger(), toFixed(x), toPrecision(x).
+Note:- In JavaScript starting is name functions only return two values true or false beacause is name functions used for cheacking conditions like isFinite and isInteger.
+What is the meaning of finite number or infinite?
+- Finite number refer to a countable number less than infinity, i.e. some natural number, possibly 0. A real number, such as may result from a measurement (of time, length, area, etc.), infinite means not countable.
+----------------------------------------------------------------------------------------------------------
+
+59. Math Methods in JS
+-----------------------
+Note:- Now we learning about math methods, these methods not running on websites normally these works in animations, video game Development or complex accounting web application Development. these methods only works with float values.
+JavaScript Math Methods(22):- ceil(x), floor(x), round(x), trunc(x), max(x), min(x), sqrt(x), cbrt(x), pow(x), random(x), floor(x), abs(x), PI.
+- ceil function always return upper value, if used negative value then return always lower value like -5.67 return -5. floor function its opposite. here negative value is upper side lower and lower side upper beacause of y exis.
+- round function convert float value into int value cheacking by after point values like if .5 less value then return lower value if .5 or above value then return upper value.
+- trunc function simply return only int value, means after point value not returning/removing.
+intrinsic object meaning in javascript?
+- "Intrinsic" is the way some authors refer to what other authors call "built-in". So, those data types/objects/classes are always there regardless of what environment you're running in. E.g.: JavaScript provides intrinsic (or "built-in") objects.
+----------------------------------------------------------------------------------------------------------
+
+60. Date Methods in JS
+-----------------------
+JavaScript Date Methods(22):- toDateString(), getDate(), getFullYear(), getMonth(), getDay(), getHours(), getMinutes(), getSeconds(),
+getMilliseconds(), setDate(), setFullYear(), setHours(), setMilliseconds(), setMinutes(), setMonth(), setSeconds().
+
+Note:- Now we learning about data methods, creating by Date method object.
+----------------------------------------------------------------------------------------------------------
+
+61. DOM Introduction in JS
+---------------------------
+Note:- Dom is Documents Object Module. JavaScript strongest point is Event & Dom. For Knowing about Dom we have to know about Dom tree.
+Dom part is Html part, in Dom main work is of Document. Document main tag is html(root) tag. in html tag we have two child tags
+element : <head> and element : <body>, both are siblings & its parent is html tag. head child tag is element : <title>. In title we write
+Text. In body tag we can put multiple element tags as a child like element : <nav>, element : <h1> etc. In nav we have element : <a> tag
+and in <a> tag we have Text : 'About Us' and attribute : 'class'. same is in <h1> tag. In JavaScript these all called Nodes, like
+element node, text node, attribute node.
+- using this Dom tree in javascript we can only Get and Set values in our Html Form. and Add Html element/Delete Html element also.
+Note:- Dom is Document Object Model. Document is Html, Object is Html Elements, Model(Dom Tree). Dom is used for inteteracting JavaScript with Html Document.
+----------------------------------------------------------------------------------------------------------
+
+62. DOM Targeting Methods in JS
+--------------------------------
+Note:- we can target Dom objects using Id, Class Name and Tag Name. methods names is document.getElementById(id), document.getElementsByClassName(name),
+document.getElementsByTagName(name). document is our object here. these are the most important methods for Targeting Dom Objects.
+Others are:- document, document.all, document.documentElement, document.head, document.title, document.body, document.images,
+document.anchors, document.links, document.forms, document.URL, document.baseURL, document.domain.
+----------------------------------------------------------------------------------------------------------
+
+63. DOM Get & Set Value Methods in JS
+--------------------------------------
+Note:- Here we knowing how to get and set values in Html Elements after targeting. We can get only Html,
+Text and Attribute in Dom, by using these methods:-
+
+JavaScript Dom Get Methods(5):- innerText, innerHTML, getAttribute, getAttributeNode, Attributes.
+JavaScript Dom Set Methods(5):- innerText, innerHTML, setAttribute, Attribute, removeAttribute.
+----------------------------------------------------------------------------------------------------------
+
+64. DOM querySelector vs querySelectorAll Me    thods in JS
+-------------------------------------------------------
+Note:- querySelector for Selecting single selector, querySelectorAll for Selecting All selectors with its index value.
+----------------------------------------------------------------------------------------------------------
+
+65. DOM CSS Styling Methods in JS
+----------------------------------
+JavaScript Css Styling Methods(3):- Style, className, classList.
+Note:- className & classList diff is className return string and classList return Array.
+----------------------------------------------------------------------------------------------------------
+
+66. Html Event Attributes
+--------------------------
+addEventListener(event, function);//Syntax
+addEventListener(event, function, useCapture);//useCapture default value is false
+Note:- addEventListener method used for appling multiple events and same events on same document object;
+----------------------------------------------------------------------------------------------------------
+
+67. classList() Methods in JS
+------------------------------
+Note:- classList add fun used for adding classes, remove for remove, length for getting length, toggle for toggling
+item for knowing item by index number, contains for checking class exist or not.
+//contains is of bool type <- in if condition we can check contains class then perform programming.
+----------------------------------------------------------------------------------------------------------
+
+68. Traversal Methods in JS
+----------------------------
+JavaScript Html Targeting Methods(12):- parentNode, parentElement, Children, childNodes, firstChild, firstElementChild,
+lastChild, lstElementChild, nextElementChild, nextSibling, previousElementSibling, previousSibling.
+Note:- parentElement & parentNode only a one diff is if element no parent then parentNode return (document) but parentElement return null.
+----------------------------------------------------------------------------------------------------------
+
+69. Children and childNodes in Traversal
+-----------------------------------------
+Note:- In Children and childNodes we targetting Children using parent.
+- Children & childNodes only a diff is Children only return html tags but childNodes return also text Nodes(Enter/Space, Comment in Html).
+----------------------------------------------------------------------------------------------------------
+
+70. firstChild and lastChild in Traversal
+------------------------------------------
+Note:- firstChild and lastChild means firstChild first element and lastChild means last element in Traversal;
+- text(Enter/Space, Comment) node not posible styling.
+
+----------------------------------------------------------------------------------------------------------
+
+71. nextSibling & previousSibling in Traversal
+-----------------------------------------------
+Note:- nextSibling & previousSibling means nextSibling next Sibling and previousSibling previous Sibling.
+----------------------------------------------------------------------------------------------------------
+
+72. createElement & createTextNode in Traversal
+------------------------------------------------
+Note:- createElement for Element creating & createTextNode  forText creating & createComment for Comment creating.
+----------------------------------------------------------------------------------------------------------
+
+73. appendChild & insertBefore Append Methods in JS
+----------------------------------------------------
+Mote:- appendChild at last append & insertBefore for specific location appending.
+----------------------------------------------------------------------------------------------------------
+
+74. insertAdjacentElement & insertAdjacentHTML & insertAdjacentText Append Methods in JS
+-----------------------------------------------------------------------------------------
+Note:- insertAdjacent methods Create & Insert Both Works at same time. Insert after Create.
+insertAdjacent has four types of Positions:- beforebegin, afterbegin, beforeend, afterend.
+----------------------------------------------------------------------------------------------------------
+
+75. replaceChild & removeChild Methods in JS
+---------------------------------------------
+Note:- replaceChild for replacing Child & removeChild for removing Child.
+----------------------------------------------------------------------------------------------------------
+
+76. cloneNode Methods in JS
+----------------------------
+Note:- cloneNode means copy Element.
+----------------------------------------------------------------------------------------------------------

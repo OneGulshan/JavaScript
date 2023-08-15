@@ -1,0 +1,73 @@
+body{
+    background: slategray;
+}
+#header{
+    background: crimson;
+}
+.abc{
+    color: #fff;
+}
+.xyz{
+    color: yellow;
+}
+#menu{
+    background: mediumpurple;
+}
+#menu a{
+    color: #fff;
+}
+#menu a:hover{
+    background: crimson;
+}
+#content::selection{
+    background: crimson;
+    color: #fff;
+}
+#sidebar{
+    background: lavender;
+}
+#sidebar a:hover{
+    color: crimson;
+}
+#footer{
+    background: crimson;
+}
+#outer{
+    width: 500ox;
+    height: 500px;
+    margin: 0 auto;
+    background: lightsalmon;
+}
+#inner{
+    width: 300ox;
+    height: 300px;
+    margin: 100px auto 0;
+    background: mediumorchid;
+}
+.pp{
+    background: purple;
+}
+#o{
+    width: 550px;
+    height: 300px;
+    padding:10px 10px;
+    margin: 0 auto;
+    background: lightsalmon;
+}
+
+#i{
+   width: 500px;
+    height: 200px;
+    padding:10px 10px;
+    margin:0 auto ;
+    background: mediumorchid;
+}
+
+#i div{
+    display: inline-block;
+    background: #fff;
+    width: 90px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+}
