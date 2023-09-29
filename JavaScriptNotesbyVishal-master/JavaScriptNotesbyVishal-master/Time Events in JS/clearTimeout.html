@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clear TimeOut Events</title>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            justify-content: center;
+            background-color: blueviolet;
+            align-items: center;
+            display: flex;
+        }
+        p{
+            text-align: center;
+            color: azure;
+            font-size: 20px;
+        }
+        button{
+            display: inline-block;
+            background-color: #f8B627;
+            color: #F4F4F4;
+            font-size: 12px;
+            font-weight: normal;
+            text-align: center;
+            border-radius: 3px;
+            transition: 400ms;
+            text-decoration: none;
+            padding: 15px 20px;
+            z-index: 100000;
+            outline: none;
+            border: none;
+            box-shadow: 0px 10px 8px -8px rgba(0, 0,0,0.6);
+            cursor: pointer;
+            width: 250px;
+        }
+    </style>
+</head>
+<body>
+    <div class="main-div">
+        <div>
+            <p>Click "Try it". Wait 3 seconds.The page will alert "Hello".</p>
+            <p>Click "Stop" to prevent the first function to execute.</p>
+            <p>(You must click "Stop" before the 2 seconds are up.)</p>
+
+            <button onclick="myVar = setTimeout(myFun,2000)">Try it</button>
+
+            <button onclick="clearTimeout(myVar)">Stop it</button>
+
+        </div>
+    </div>
+
+    <script>
+        function myFun(){
+            alert("Hello");
+        }
+    </script>
+</body>
+</html>
